@@ -2,7 +2,7 @@
 Extremely Secure Apache HTTP Server configuration files
 
 1. There is not a single place on the web you can find end-to-end Apache HTTP Server configuration. It's very frustrating. 
-2. Config assumes Ubuntu 16.04+ and the latest version of Apache. For Apache you usually have to compile from source instead of downloading from the package repos. 
+2. Config assumes Ubuntu 16.04+ and the latest version of Apache. For Apache to get the latest version you usually have to compile from source instead of downloading from the package repos. 
 3. Later configs will be added for CentOS7/RHEL
 4. Often directives are split up between files such as `httpd.conf` and `security.conf`. I decided to write all of my configs into a single `Apache2.conf` file, which isn't as common anymore, but it makes for easier reading.
 
